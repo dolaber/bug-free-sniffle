@@ -1,0 +1,46 @@
+.newsitem {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    margin: 1em;
+    height:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #1e1f21;
+}
+
+.newsitem a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1e1f21;
+}
+
+.newsitem .via {
+    font-size: 12px;
+}
+
+.newsitem .title {
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+}
+
+.newsfeed .loading {
+    width: 100%;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+}
+
+.newsitem .stats {
+    font-size: 10px;
+}
+
+.newsitem .ups {
+    margin: 0 1em;
+    color: green;
+}
+
+.newsitem .downs {
+    margin: 0 1em;
+    color: red;
+}
