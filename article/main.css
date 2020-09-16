@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1e1f21;
+    margin: 0;
+}
+
+.title {
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.article-title {
+    font-size: 20px;
+    grid-area: article-title;
+}
+
+.article-date {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 1em 0;
+    font-weight: lighter;
+    font-variant: small-caps;
+    color: #4B4B4D;
+}
+
+.socials {
+    margin: 1em 0;
+    color: #4B4B4D;
+    grid-area: socials;
+}
+
+.article-footer {
+    line-height: normal;
+    font-size: 14px;
+    font-weight: lighter;
+    color:#EDEDED;
+    background-color: #070707;
+    padding: 2em;
+    text-align: center;
+}
+
+img {
+    max-width: 800px;
+    width: 75%;
+}
+.article-link a {
+    text-decoration: none;
+}
+
+.article-container {
+    margin: 1em;
+}
+
